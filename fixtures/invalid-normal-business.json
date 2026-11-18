@@ -1,0 +1,26 @@
+[
+  {
+    "name": "提交归属不符",
+    "changes": {
+      "submission": "S2"
+    }
+  },
+  {
+    "name": "设备不符",
+    "changes": {
+      "device": "D2"
+    }
+  },
+  {
+    "name": "尚未接纳",
+    "changes": {
+      "accepted": false
+    }
+  },
+  {
+    "name": "观察时点无效",
+    "changes": {
+      "observedAt": -1
+    }
+  }
+]
