@@ -16,6 +16,35 @@
           }
         }
       ]
+    },
+    {
+      "method": "POST",
+      "path": "/intakes/S1/parts",
+      "responses": [
+        {
+          "body": {
+            "submission": "S1",
+            "part": "P1",
+            "bytesStored": 10,
+            "businessAccepted": false
+          }
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "path": "/intakes/S1/receipt",
+      "responses": [
+        {
+          "body": {
+            "terminal": "T1",
+            "submission": "S1",
+            "receipt": "R1",
+            "accepted": true,
+            "cleanupPermit": null
+          }
+        }
+      ]
     }
   ]
 }
