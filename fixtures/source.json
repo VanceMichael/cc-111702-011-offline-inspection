@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/intakes",
+      "responses": [
+        {
+          "body": {
+            "terminal": "T1",
+            "submission": "S1",
+            "device": "D1",
+            "reading": 12,
+            "observedAt": 60,
+            "receipt": "R1",
+            "accepted": true
+          }
+        }
+      ]
+    }
+  ]
+}

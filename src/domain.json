@@ -1,0 +1,14 @@
+{
+  "initial": {
+    "terminals": {
+      "T1": [
+        "D1"
+      ]
+    },
+    "intakes": {}
+  },
+  "route": {
+    "method": "POST",
+    "path": "/intakes"
+  }
+}
